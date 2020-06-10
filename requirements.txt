@@ -1,0 +1,12 @@
+mpld3
+fmpy
+aiohttp
+aiohttp_session[secure]
+aiokafka
+aiohttp_cors
+numpy
+scipy
+firebase-admin
+pandas-profiling[notebook,html]
+pandas
+matplotlib

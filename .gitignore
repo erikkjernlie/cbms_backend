@@ -1,0 +1,12 @@
+.idea/
+venv/
+*.fmu
+*.zip
+/files/*
+!/files/blueprints/
+.vscode/
+files/blueprints/event_trigger/serviceAccountKey.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]

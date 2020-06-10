@@ -1,0 +1,17 @@
+import multiprocessing
+import os 
+from multiprocessing import Pool
+print(multiprocessing.cpu_count())
+
+
+
+def f(x):
+	b = 0
+	while b < 100000000:
+		print("hello")
+		b+=1
+	return x*x
+
+if __name__ == '__main__':
+    with Pool(5) as p:
+        print(p.map(f, [1, 2, 3]))
